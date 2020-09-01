@@ -1,0 +1,10 @@
+export default {
+    ADD_ITEM: 'ADD_ITEM',
+    EDIT_ITEM: 'EDIT_ITEM',
+    DELETE_ITEM: 'DELETE_ITEM',
+    SET_TITLE: 'SET_TITLE',
+    SET_ITEM: 'SET_ITEM',
+    SET_EDIT: 'SET_EDIT',
+    SET_ERROR: 'SET_ERROR',
+    SET_STATUS: 'SET_STATUS'
+}
