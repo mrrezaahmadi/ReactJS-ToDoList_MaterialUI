@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import Header from "../../components/todos-header/todos-header.component";
 import Form from "../../components/todos-form/todos-form.component";
+import ToDoList from "../../components/todos-list/todos-list.component"
 
 const useStyles = makeStyles({
 	root: {
@@ -18,6 +19,7 @@ function Todo() {
 		<div className={classes.root}>
 			<Header />
             <Form />
+            <ToDoList />
 		</div>
 	);
 }
