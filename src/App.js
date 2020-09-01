@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Todo from "./pages/todos/todos.component";
+
 
 function App() {
   return (
-    <h1>This is going to be a todo app</h1>
+    <Todo />
   );
 }
 
